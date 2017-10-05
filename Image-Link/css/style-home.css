@@ -1,0 +1,54 @@
+img {
+    max-width: 300px;
+}
+
+#bk {
+    max-width: 100%;    
+}
+
+#sp {
+    font-family: "Verdana";
+    font-size: 35px;
+    text-align: center;
+    color: chocolate;
+}
+
+a:link { 
+    color: goldenrod;
+}
+
+a:visited { 
+    color: blueviolet;
+}
+
+a:hover { 
+    color: green;
+}
+
+a:active { 
+    color: orangered;
+}
+
+#danhsachgiay {
+    border: 2px solid black;
+}
+
+.hang img {
+    max-width: 25% ;
+    margin: 0 auto; 
+    display: block;
+}
+
+
+#logo img {
+    max-width:100% ;
+    margin: 0 auto; 
+    display: block;
+}
+
+p {
+    font-family: "Verdana";
+    font-size: 12px;
+    text-align: center;
+}
+    
