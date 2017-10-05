@@ -1,0 +1,61 @@
+body {
+    color: #00008B;
+    
+}
+
+.CHXH {
+    font-family: "Arial";
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+#Tieude {
+    font-family: "Arial";
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.Kinhgui {
+    font-family: "Arial";
+    font-style: italic;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-indent: 30px;
+}
+
+.Gioithieu {
+    font-family: "Arial";
+    font-style: italic;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-indent: 30px;
+       
+}
+
+.Noidung {
+    font-family: "Arial";
+    text-align: justify;
+    
+}
+
+#Ngaythang {
+    font-family: "Arial";
+    text-align: right;
+    
+}
+
+#Kyten1 {
+    font-family: "Arial";
+    text-align: right;
+    
+}
+
+#Kyten2 {
+    font-family: "Arial";
+    text-align: right;
+    
+}
+
