@@ -1,0 +1,136 @@
+img {
+    max-width: 300px;
+}
+
+#bk {
+    max-width: 100%;
+}
+
+
+a:link {
+    color: goldenrod;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: orangered;
+}
+
+#danhsachgiay {
+    border: 2px solid black;
+}
+
+.hang img {
+    max-width: 25%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#logo img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    font-family: "Verdana";
+    font-size: 12px;
+    text-align: center;
+}
+
+#wrap {
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.fate {
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    color: darkred;
+    font-family: "Verdana";
+    font-size: 50px;
+    text-align: center;
+    left: 10%;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    width: 200px;
+    animation: fate 15s linear infinite;
+
+}
+
+@keyframes fate {
+    0% {
+        left: 0;
+        opacity: 0;
+    }
+    15% {
+        left: 8%;
+        opacity: 0.2;
+    }
+    25% {
+        left: 16%;
+        opacity: 0.5;
+    }
+
+    50% {
+        left: 32%;
+        opacity: 1;
+    }
+
+
+    75% {
+        left: 58%;
+        opacity: 0.5;
+    }
+    90% {
+        left: 64%;
+        opacity: 0.2;
+    }
+    100% {
+        left: 70%;
+        opacity: 0;
+    }
+}
+
+.fate2 {
+    color: deeppink;
+    font-family: "Verdana";
+    font-size: 20px;
+    position: absolute;
+    animation: fate2 10s linear infinite;
+    right: 1%;
+}
+
+@keyframes fate2 {
+    0% {
+        right: 1%;
+        opacity: 0;
+    }
+    25% {
+        right: 5%;
+        opacity: 1;
+    }
+    50% {
+        right: 5%;
+        opacity: 1;
+    }
+    80% {
+        right: 5%;
+        opacity: 1;
+    }
+    100% {
+        right: 50%;
+        opacity: 0;
+    }
+}
