@@ -1,0 +1,113 @@
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0;
+    padding: 0;
+}
+
+#menu a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#menu {
+    height: 80px;
+    background-color: #232323;
+}
+
+#menu > ul > li {
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+
+#menu > ul > li > a {
+    color: #a0a0a0;
+    font-family: "Verdana";
+    font-size: 15px;
+    line-height: 70px;
+    padding: 15px 20px;
+}
+
+#menu > ul > li > a:hover {
+    color: coral;
+}
+
+#menu ul > li > ul {
+    visibility: hidden;
+    padding: 16px 0 20px 0;
+    background-color: white;
+    text-align: left;
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    margin-left: -90px;
+    width: 180px;
+    border-radius: 5%;
+}
+
+#menu > ul > li:hover > ul {
+    top: 65px;
+    visibility: visible;
+}
+
+#menu > ul > li > ul:before {
+    content: "";
+    display: block;
+    border-color: transparent transparent white transparent;
+    border-style: solid;
+    border-width: 10px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+#menu > ul ul > li {
+    position: relative;
+}
+
+#menu ul ul a {
+    color: #232323;
+    font-family: "Verdana";
+    font-size: 13px;
+    background-color: white;
+    padding: 5px 8px 7px 16px;
+    display: block;
+}
+
+#menu ul ul a:hover {
+    background-color: white;
+}
+
+#menu ul ul ul {
+    visibility: hidden;
+    position: absolute;
+    top: -16px;
+    left: 206px;
+    padding: 16px 0 20px 0;
+    background-color: white;
+    text-align: left;
+    width: 160px;
+}
+
+#menu ul ul > li:hover > ul {
+    left: 196px;
+    visibility: visible;
+}
+
+#menu ul ul a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+#top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
